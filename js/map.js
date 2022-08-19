@@ -8,7 +8,7 @@ const handlePasswordSubmit = (e) => {
     e.preventDefault();
     const userInputData = userInput.value;
     if (userInputData === KEY) {
-        userResult.innerHTML = "영접기도문 비밀번호 ?71";
+        userResult.innerHTML = "영접기도문 비밀번호 ?7?";
     }
     else {
         userResult.innerHTML = "틀렸습니다.";
