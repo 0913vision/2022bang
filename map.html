@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="css/styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>기사실 메인 컴퓨터</title>
+    </head>
+    <body>
+        <div id="all">
+            <div>
+                <h1>지도</h1>
+                <h2>아래에 지도에서 해독한 글자를 입력해주세요.</h2>
+                <a href="index.html" class="back">돌아가기</a>
+            </div>
+            <form id="map-password-form">
+                <input maxlength="1" size=1 type="text" placeholder="글자를 입력해주세요." required/>
+                <input type="submit" value="Enter" id="passwordEnter">
+            </form>
+            <hr>
+            <div id="map_result" class="result"></div>
+        </div>
+        <script src="js/map.js"></script>
+    </body>
+</html>

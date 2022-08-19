@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="css/styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>기사실 메인 컴퓨터</title>
+    </head>
+    <body>
+        <div id="all">
+            <div>
+                <h1>성경 사본</h1>
+                <h2>아래에 성경 사본에서 나온 암호를 입력하세요.</h2>
+                <a href="index.html" class="back">돌아가기</a>
+            </div>
+            <form id="bible-password-form">
+                <input size=25 type="text" placeholder="암호를 입력해주세요." required/>
+                <input type="submit" value="Enter" id="passwordEnter">
+            </form>
+            <hr>
+            <div id="bible_result" class="result"></div>
+        </div>
+        <script src="js/bible.js"></script>
+    </body>
+</html>
