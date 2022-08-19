@@ -8,7 +8,7 @@ const handlePasswordSubmit = (e) => {
     e.preventDefault();
     const userInputData = userInput.value;
     if (userInputData === KEY) {
-        userResult.innerHTML = "탈출 성공!";
+        userResult.innerHTML = "성공! 모든 증거를 모았습니다!";
     }
     else {
         userResult.innerHTML = "틀렸습니다.";
